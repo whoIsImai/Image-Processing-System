@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.firebase = void 0;
 const app_1 = require("firebase/app");
 const auth_1 = require("firebase/auth");
 require("dotenv/config");
@@ -11,7 +12,7 @@ const Config = {
     messagingSenderId: process.env.FIREBASE_MESSAGING_SENDER_ID,
     appId: process.env.FIREBASE_APP_ID
 };
-const firebase = (0, app_1.initializeApp)(Config);
-const auth = (0, auth_1.getAuth)(firebase);
+exports.firebase = (0, app_1.initializeApp)(Config);
+const auth = (0, auth_1.getAuth)(exports.firebase);
 exports.default = auth;
 //# sourceMappingURL=firebase.js.map
