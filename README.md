@@ -3,9 +3,13 @@ A backend system that allows users to securely upload, store, and retrieve image
 
 ## 📌 Features
 ✅ Secure user authentication via Firebase OAuth
+
 ✅ Upload images to AWS S3
+
 ✅ Store image URLs in Firestore
+
 ✅ Retrieve images on demand
+
 ✅ Scalable and efficient cloud-based storage
 
 ## 🚀 Tech Stack
