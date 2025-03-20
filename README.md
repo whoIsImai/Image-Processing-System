@@ -14,7 +14,11 @@ A backend system that allows users to securely upload, store, and retrieve image
 
 ## 🚀 Tech Stack
 Backend: Node.js, Express.js
+
 Language: TypeScript
+
 Authentication: Firebase OAuth
+
 Database: Google Firestore
+
 Storage: AWS S3
